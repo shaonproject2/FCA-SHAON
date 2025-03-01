@@ -1,20 +1,20 @@
 {
-  "name": "fca-horizon-remastered",
+  "name": "fca-shaon",
   "version": "1.5.2",
-  "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team",
+  "description": "Facebook-chat-api protect and deploy by Shaon Ahmed Team",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki",
+  "author": "Avery, David, Maude, Benjamin, UIRI, Shaon Ahmed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered/issues"
+    "url": "https://github.com/shaonproject2/FCA-SHAON/issues"
   },
-  "homepage": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered#readme",
+  "homepage": "https://github.com/shaonproject2/FCA-SHAON#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/KanzuXHorizon/Fca-Horizon-Remastered.git"
+    "url": "git://github.com/shaonproject2/FCA-SHAON.git"
   },
   "dependencies": {
     "aes-js": "latest",
@@ -86,9 +86,9 @@
     }
   },
   "keywords": [
-    "Fca horizon",
-    "fca-horizon-remastered",
-    "horizon fca",
-    "horizon"
+    "Fca Shaon",
+    "fca-Shaon-project",
+    "Shaon fca",
+    "Shaon"
   ]
 }
