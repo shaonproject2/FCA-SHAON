@@ -6,7 +6,7 @@
 
 ## Important !
 
-<img width="517" alt="Reason" src="https://i.imgur.com/rD3ujmL.png">
+<img width="517" alt="Reason" src="">
 This project is no longer being developed because the project owner lacks high security capabilities, leading to potential security vulnerabilities. Therefore, the project will be permanently suspended.
 
 Special Thanks: 
