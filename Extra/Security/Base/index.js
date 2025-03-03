@@ -9,16 +9,16 @@ const Already_Action = { First: 0, Encode: { Status: false, Data: Array }, Decod
 
 var ArrPassWord;
 
-if (!fs.existsSync(process.cwd() + '/Horizon_Database') || !fs.existsSync(process.cwd() + '/Horizon_Database/RandPass.json')) {
+if (!fs.existsSync(process.cwd() + '/Shaon_Database') || !fs.existsSync(process.cwd() + '/Horizon_Database/RandPass.json')) {
   const crypto = require('crypto');
   ArrPassWord = Array.from({length: 101}, (_,i) => crypto.randomBytes(5).toString('hex'));
   if (Database().has('Security')) {
     Database().delete('Security');
   }
-  if (!fs.existsSync(process.cwd() + '/Horizon_Database')) {
-    fs.mkdirSync(process.cwd() + '/Horizon_Database');
+  if (!fs.existsSync(process.cwd() + '/Shaon_Database')) {
+    fs.mkdirSync(process.cwd() + '/Shaon_Database');
   }
-  fs.writeFileSync(process.cwd() + '/Horizon_Database/RandPass.json', JSON.stringify(ArrPassWord, null, 2), 'utf8');
+  fs.writeFileSync(process.cwd() + '/Shaon_Database/RandPass.json', JSON.stringify(ArrPassWord, null, 2), 'utf8');
 }
 
 else {
